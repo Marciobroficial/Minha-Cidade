@@ -26,9 +26,11 @@ Guilherme
 ### Projeto Minha Cidade
 
 
-O projeto minha cidade é uma plataforma de estilo rede social, que permitira a iteração entre os administradores de uma cidade e seus municipes. 
+O projeto minha cidade é uma plataforma de estilo rede social, que permitira a iteração entre os administradores
+de uma cidade e seus municipes. 
 
-O projeto tem como viabilidade melhorar a conexão entre a população, podendo atribuir melhoras a serem feitas no municipio, elogios por algum trabalho relaizado, ideias, e manter a população ativa e participativa nos processos e no trabalho da administração.
+O projeto tem como viabilidade melhorar a conexão entre a população, podendo atribuir melhoras a serem feitas no municipio, elogios por algum trabalho relaizado, ideias, e manter a população ativa e participativa nos processos
+e no trabalho da administração.
 
  
 
@@ -80,13 +82,17 @@ Neste input o usuário deverá inserir uma senha no qual usará posteriomente pa
 
 ##  Tela Esqueci minha senha
  
-O sistema tambem contará ainda na tela de login um outro link que terá o nome de “Esqueci minha senha”, este link irá redirecionar o usuário para outra página que terá as seguintes funcionalidades.
+O sistema tambem contará ainda na tela de login um outro link que terá o nome de “Esqueci minha senha”,
+este link irá redirecionar o usuário para outra página que terá as seguintes funcionalidades.
 
-Nesta tela apresentará o campo para que vc insirá seu e-mail, e será enviado um e-mail com um link para acesso ao mudar senha.
+Nesta tela apresentará o campo para que vc insirá seu e-mail, e será enviado um e-mail com um link para
+acesso ao mudar senha.
 
-Neste link abrirá uma pagina para que vc possa alterar a senha, solicitando que vc informe seu e-mail, a nova senha e a repetição desta nova senha.
+Neste link abrirá uma pagina para que vc possa alterar a senha, solicitando que vc informe seu e-mail,
+a nova senha e a repetição desta nova senha.
 
-Após realizar este procedimento o banco de dados será atualizado com esta nova senha e você poderá acessar ao sistema normalmente com sua nova senha. 
+Após realizar este procedimento o banco de dados será atualizado com esta nova senha e você poderá acessar
+ao sistema normalmente com sua nova senha. 
 
  
 
@@ -108,13 +114,16 @@ Abaixo do menu haverá um campo para inserir um novo feed:
 
 ##  Publicar:
 
-Este campo publicar irá apresentar um modal para que seja inserido uma nova publicação, esta publicação seguirar para o feed de noticias. O usuário tambem poderá realizar o envio de imagens para a publicação.
+Este campo publicar irá apresentar um modal para que seja inserido uma nova publicação, esta publicação
+seguirar para o feed de noticias. O usuário tambem poderá realizar o envio de imagens para a publicação.
 
-Irá ter o botão publicar onde haverá uma validação que esta publicação deverá conter um conteúdo para que não haja publicações vazias no feed de noticias.
+Irá ter o botão publicar onde haverá uma validação que esta publicação deverá conter um conteúdo para que
+não haja publicações vazias no feed de noticias.
 
 ## Feed de publicações:
 
-O feed de publicações apresentará as publicações em ordem de horário de publicação a publicação mais recente sempre será apresentada primeiro, e dentro de cada prublicação poderá realizar as seguintes ações:
+O feed de publicações apresentará as publicações em ordem de horário de publicação a publicação mais recente
+sempre será apresentada primeiro, e dentro de cada prublicação poderá realizar as seguintes ações:
 
  
 
@@ -124,9 +133,12 @@ Outros usuáros poderam comentar dentro da publicação, deixando suas duvidas, 
 
  
 
-Sempre quando os administradores perante a publicações realizarem um procedimento terá presente para o administrado e somente para ele um botão check informando que aquela solicitação, ou reclamação, palpite, ideia foi atendido, e a cor da publicação será alterada contendo informações do momento que foi atendido, 
+Sempre quando os administradores perante a publicações realizarem um procedimento terá presente para o
+administrado e somente para ele um botão check informando que aquela solicitação, ou reclamação, palpite,
+ideia foi atendido, e a cor da publicação será alterada contendo informações do momento que foi atendido, 
 
-dentro destes feeds a administração poderá informar aos municipes sobre informações da area da súde, agricultura, e demais departamentos existentes dentro do regime para que os municipes fiquem atentos ao que ocorre no municipio, como datas de vacinas, visitas de dengue, IPTU, e etc..
+dentro destes feeds a administração poderá informar aos municipes sobre informações da area da súde, agricultura,
+e demais departamentos existentes dentro do regime para que os municipes fiquem atentos ao que ocorre no municipio, como datas de vacinas, visitas de dengue, IPTU, e etc..
 
 
 ##   Resolução de problema recorrente
