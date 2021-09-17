@@ -1,0 +1,25 @@
+*{
+    margin: 3px;0;
+    padding: 1px;;
+    box-sizing: border-box;
+  }
+  
+  html, body{
+    height: 100%;
+  }
+
+  .container{
+    height: 100%;
+    display: flex;
+    align-items: top;
+    justify-content:last baseline;
+  }
+  
+  #checkbox-menu{
+    position: absolute;
+    opacity: 0;
+  }
+  .color{
+      background-color: rgb(133, 190, 190);
+  }
+  
