@@ -2,8 +2,10 @@
 <html lang="pr-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Marcio Santos"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icone-fav.jpg" type="image/x-icon">
     <title>Minha Cidade</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
@@ -15,15 +17,15 @@
         
         .modal-content {
             width: 300px;
-            background-color: rgba(88, 99, 248, 0.860)!important
+            background-color: rgb(243, 243, 248)!important
 
         }
         .list-group-item:hover {
-            background-color: rgba(245, 244, 247, 0.288)!important;
+            background-color: rgba(219, 157, 219, 0.301)!important;
 
         }
         .list-group-item {
-            background-color: rgba(88, 99, 248, 0.860)!important;
+            background-color: rgb(251, 251, 252)!important;
         }
         .body {
           background-color: #a5b7dd;
@@ -34,13 +36,12 @@
 </head>
 
 <body class="body">
-      <div class="alert alert-primary" role="alert" >
+      <!-- <div class="alert alert-primary" role="alert" >
         <h4 class = "alert-heading, ">Bem Vindo! Informe onde se encontra o problema e iremos resolver.</h4>
-      </div>
+      </div> -->
     <nav class="navbar navbar-light bg-light shadow">
         <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1">Menu</span>
-          
+          <!-- <span class="navbar-brand mb-0 h1">Menu</span>           -->
           <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -50,16 +51,16 @@
     <div class="modal-dialog modal-fullscreen">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Menu</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h5 class="modal-title"><img src="img/sell-icon.png" alt="perfil" > Manuela</h5>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
         </div>
         <div class="modal-body">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">HOME</li>
-                <li class="list-group-item">PUBLICAR</li>
-                <li class="list-group-item">PERFIL</li>
-                <li class="list-group-item">PESQUISA</li>
-                <li class="list-group-item">OUTROS</li>
+                <li class="list-group-item"><img src="img/casa.png"alt="home"> HOME</li>
+                <li class="list-group-item"><img src="img/Publicar.png" alt="Publicar"> PUBLICAR</li>
+                <li class="list-group-item"><img src="img/perfil.png" alt="perfil"> PERFIL </li> 
+                <li class="list-group-item"><img src="img/lupape.png" alt="perfil"> PESQUISA</li>
+                <li class="list-group-item"><img src="img/human-resources.png" alt="perfil"> OUTROS</li>
               </ul> 
         </div>
         <div class="modal-footer">
